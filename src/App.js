@@ -1,24 +1,16 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import './tailwind.output.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello World
-        </p>
-        <a
-          className="App-link"
-          href="https://invadedbypixels.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          React Boilerplate
-        </a>
-      </header>
+    <>
+    <div className="bg-black text-white overflow-hidden shadow-lg p-5 w-screen text-center">
+        <h1 className="font-bold hover:font-light">Title</h1>
+        <p>Content</p>
     </div>
+    </>
   );
 }
 
